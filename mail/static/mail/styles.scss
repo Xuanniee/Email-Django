@@ -1,0 +1,53 @@
+textarea 
+{
+    min-height: 400px;
+}
+
+%individual-email
+{
+    border: 2px solid black;
+    margin-top: 0.1%;
+    margin-bottom: 0.1%;
+    text-align: center;
+
+    // Make the Email Border Nicer
+    border-radius: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.individual-email-sections-unread
+{
+    @extend %individual-email;
+    background: white;
+}
+
+.individual-email-sections-read
+{
+    @extend %individual-email;
+    background: grey;
+}
+
+.inline-buttons
+{
+    float: left;
+    margin: 1%;
+    margin-left: 0%;
+    display: inline;
+}
+
+.email-container
+{
+    display: inline-flex;
+    position: relative;
+    padding-bottom: 2%;
+    padding-right: 0.5%;
+}
+
+.email-detailed-content
+{
+    border-top: 2px solid rgba(0,0,0,0.1);
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}

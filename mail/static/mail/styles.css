@@ -1,0 +1,42 @@
+textarea {
+  min-height: 400px;
+}
+
+.individual-email-sections-read, .individual-email-sections-unread {
+  border: 2px solid black;
+  margin-top: 0.1%;
+  margin-bottom: 0.1%;
+  text-align: center;
+  border-radius: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.individual-email-sections-unread {
+  background: white;
+}
+
+.individual-email-sections-read {
+  background: grey;
+}
+
+.inline-buttons {
+  float: left;
+  margin: 1%;
+  margin-left: 0%;
+  display: inline;
+}
+
+.email-container {
+  display: inline-flex;
+  position: relative;
+  padding-bottom: 2%;
+  padding-right: 0.5%;
+}
+
+.email-detailed-content {
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+}
+
+/*# sourceMappingURL=styles.css.map */
